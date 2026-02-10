@@ -660,6 +660,22 @@ video {
   margin-top: 2.25rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-36 {
+  margin-bottom: 9rem;
+}
+
 .flex {
   display: flex;
 }
@@ -704,6 +720,22 @@ video {
   height: 100%;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.max-h-\[364\] {
+  max-height: 364;
+}
+
+.max-h-\[364px\] {
+  max-height: 364px;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -730,6 +762,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[100p\] {
+  width: 100p;
+}
+
+.w-\[100px\] {
+  width: 100px;
 }
 
 .max-w-\[340px\] {
@@ -795,8 +835,17 @@ video {
        column-gap: 1.75rem;
 }
 
+.gap-x-32 {
+  -moz-column-gap: 8rem;
+       column-gap: 8rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
+}
+
+.text-clip {
+  text-overflow: clip;
 }
 
 .rounded-\[10px\] {
@@ -819,8 +868,16 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-b-2 {
@@ -833,6 +890,11 @@ video {
 
 .border-transparent {
   border-color: transparent;
+}
+
+.border-primery {
+  --tw-border-opacity: 1;
+  border-color: rgb(238 85 20 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#1265e134\] {
@@ -989,6 +1051,15 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -999,6 +1070,14 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .leading-\[130\%\] {
@@ -1018,6 +1097,26 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[44\] {
+  color: 44;
+}
+
+.text-\[\#1a\] {
+  color: #1a;
+}
+
+.text-\[\#1a0a\] {
+  color: #1a0a;
+}
+
+.text-\[\#1a0a038e\] {
+  color: #1a0a038e;
 }
 
 .shadow-\[0px_1px_14px_0px_\#1A0A030D\] {
