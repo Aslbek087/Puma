@@ -596,12 +596,20 @@ video {
   margin-top: -4rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-14 {
   margin-bottom: 3.5rem;
 }
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .mb-3 {
@@ -668,20 +676,16 @@ video {
   margin-top: 8rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .mt-7 {
   margin-top: 1.75rem;
 }
 
 .mt-9 {
   margin-top: 2.25rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .flex {
@@ -720,6 +724,10 @@ video {
   height: 400px;
 }
 
+.h-\[52px\] {
+  height: 52px;
+}
+
 .h-\[70px\] {
   height: 70px;
 }
@@ -744,12 +752,24 @@ video {
   width: 100px;
 }
 
+.w-\[111px\] {
+  width: 111px;
+}
+
 .w-\[140px\] {
   width: 140px;
 }
 
 .w-\[1px\] {
   width: 1px;
+}
+
+.w-\[203px\] {
+  width: 203px;
+}
+
+.w-\[256px\] {
+  width: 256px;
 }
 
 .w-\[400px\] {
@@ -776,6 +796,10 @@ video {
   max-width: 360px;
 }
 
+.max-w-\[488px\] {
+  max-width: 488px;
+}
+
 .max-w-\[500px\] {
   max-width: 500px;
 }
@@ -786,14 +810,6 @@ video {
 
 .max-w-\[792px\] {
   max-width: 792px;
-}
-
-.max-w-\[488\] {
-  max-width: 488;
-}
-
-.max-w-\[488px\] {
-  max-width: 488px;
 }
 
 .grid-cols-3 {
@@ -868,8 +884,9 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
+.rounded-l-lg {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .rounded-l-xl {
@@ -877,35 +894,25 @@ video {
   border-bottom-left-radius: 0.75rem;
 }
 
-.rounded-l {
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-
-.rounded-l-lg {
-  border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
-}
-
 .rounded-r-lg {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .border {
   border-width: 1px;
 }
 
-.border-4 {
-  border-width: 4px;
+.border-2 {
+  border-width: 2px;
 }
 
 .border-b-2 {
   border-bottom-width: 2px;
+}
+
+.border-\[\#00000033\] {
+  border-color: #00000033;
 }
 
 .border-\[\#1A0A031A\] {
@@ -921,20 +928,12 @@ video {
   border-color: transparent;
 }
 
-.border-\[\] {
-  border-color: ;
-}
-
-.border-\[\#00000033\] {
-  border-color: #00000033;
-}
-
-.border-\[\#\#00000033\] {
-  border-color: ##00000033;
-}
-
 .bg-\[\#1265e134\] {
   background-color: #1265e134;
+}
+
+.bg-\[\#81a8da29\] {
+  background-color: #81a8da29;
 }
 
 .bg-\[\#ee551434\] {
@@ -960,39 +959,13 @@ video {
   background-color: rgb(238 85 20 / var(--tw-bg-opacity, 1));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#\] {
-  background-color: #;
-}
-
-.bg-\[\#81a\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(136 17 170 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#81a8\] {
-  background-color: #81a8;
-}
-
-.bg-\[\#81a8da\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(129 168 218 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#81a8da29\] {
-  background-color: #81a8da29;
-}
-
-.bg-transparent {
-  background-color: transparent;
 }
 
 .bg-\[linear-gradient\(120deg\2c _\#ee551429_61\%\2c _rgba\(238\2c _85\2c _20\2c _0\)_59\%\)\] {
@@ -1016,20 +989,17 @@ video {
      object-fit: cover;
 }
 
-.p-64 {
-  padding: 16rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-16 {
   padding: 4rem;
 }
 
 .p-4 {
   padding: 1rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-14 {
@@ -1072,11 +1042,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .pb-28 {
   padding-bottom: 7rem;
 }
@@ -1085,12 +1050,12 @@ video {
   padding-bottom: 1.75rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
-}
-
 .pl-7 {
   padding-left: 1.75rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-center {
@@ -1103,10 +1068,6 @@ video {
 
 .font-source {
   font-family: Playfair Display;
-}
-
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-2xl {
@@ -1134,6 +1095,11 @@ video {
 
 .text-\[44px\] {
   font-size: 44px;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-sm {
